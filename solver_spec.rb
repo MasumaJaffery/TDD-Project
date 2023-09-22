@@ -23,4 +23,11 @@ describe Solver do
       expect(result).to eq('olleh')
     end
   end
+
+  describe 'fizzbuzz' do
+  it "returns 'fizz' for devisibe by 3" do
+    f = fizzbuzz(9)
+    expect(f).to eq('fizz')
+  end
+end
 end
