@@ -1,8 +1,10 @@
-`AllCops:
+AllCops:
   NewCops: enable
   Exclude:
     - "Guardfile"
     - "Rakefile"
+    - "teacher"
+    - "Gemfile"
     - "node_modules/**/*"
 
   DisplayCopNames: true
