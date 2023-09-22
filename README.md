@@ -1,9 +1,4 @@
 # TDD
-
-
-
-
-
 ## Getting Started
 <a name="readme-top"></a>
 # 📗 Table of Contents
@@ -28,7 +23,15 @@
 - [📝 License](#license)
 
 # 📖 [Test Driven Development] <a name="about-project"></a>
-**[TDD]**In this project We will implement a class with some methods, but We will do it by doing test-driven development (TDD).The idea is to write tests first and then the code. This will be verified in Our commits history.
+**[TDD]**In this project We will implement a class with some methods, but We will do it by doing test-driven development (TDD). The idea is to write tests first and then the code. This will be verified in Our commits history.
+
+# Flow Chart
+Write Test => Write Code =>  Run Test =>  If Fails => Refactor Code => Run Test => Repeat Process of Refactor until Test Passed! 
+
+# Main Points 
+1. Write the Test Case first.
+2. Write the Code in accordance with the Test Case.
+3. Run the Test Case and Refactor if the Test Case Failed!
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
