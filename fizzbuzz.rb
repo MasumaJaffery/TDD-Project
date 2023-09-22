@@ -1,11 +1,11 @@
 def fizzbuzz(n)
-    if n % 3 == 0 && n % 5 == 0
-        return 'fizzbuzz'
-    elsif n % 3 == 0
-        return 'fizz'
-    elsif n % 5 == 0
-        return 'buzz'
-    else
-        return n.to_s
-    end
+  if (n % 3).zero? && (n % 5).zero?
+    'fizzbuzz'
+  elsif (n % 3).zero?
+    'fizz'
+  elsif (n % 5).zero?
+    'buzz'
+  else
+    n.to_s
+  end
 end

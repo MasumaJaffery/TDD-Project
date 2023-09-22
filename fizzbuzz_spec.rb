@@ -7,22 +7,22 @@ describe 'fizzbuzz' do
   end
 end
 
-describe 'fizzbuzz' do 
-    it "returns 'buzz' for devisible by 5" do
+describe 'fizzbuzz' do
+  it "returns 'buzz' for devisible by 5" do
     f = fizzbuzz(20)
     expect(f).to eq('buzz')
-    end
+  end
 end
 
-describe 'fizzbuzz' do 
-    it "returns 'buzzbuzz' for devisible by 5 and 3" do
+describe 'fizzbuzz' do
+  it "returns 'buzzbuzz' for devisible by 5 and 3" do
     f = fizzbuzz(15)
     expect(f).to eq('fizzbuzz')
-    end
+  end
 end
 
-describe 'fizzbuzz' do 
-  it "returns a string for a number that is not divisible by 3 and 5" do
+describe 'fizzbuzz' do
+  it 'returns a string for a number that is not divisible by 3 and 5' do
     f = fizzbuzz(26)
     expect(f).to be_a(String)
   end
