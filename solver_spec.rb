@@ -25,31 +25,30 @@ describe Solver do
   end
 
   describe 'fizzbuzz' do
-  it "returns 'fizz' for devisibe by 3" do
-    f = fizzbuzz(9)
-    expect(f).to eq('fizz')
+    it "returns 'fizz' for devisibe by 3" do
+      f = @solver.fizzbuzz(9)
+      expect(f).to eq('fizz')
+    end
   end
-end
 
   describe 'fizzbuzz' do
-  it "returns 'buzz' for devisible by 5" do
-    f = fizzbuzz(20)
-    expect(f).to eq('buzz')
+    it "returns 'buzz' for devisible by 5" do
+      f = @solver.fizzbuzz(20)
+      expect(f).to eq('buzz')
+    end
   end
-end
 
-describe 'fizzbuzz' do
-  it "returns 'buzzbuzz' for devisible by 5 and 3" do
-    f = fizzbuzz(15)
-    expect(f).to eq('fizzbuzz')
+  describe 'fizzbuzz' do
+    it "returns 'buzzbuzz' for devisible by 5 and 3" do
+      f = @solver.fizzbuzz(15)
+      expect(f).to eq('fizzbuzz')
+    end
   end
-end
 
-describe 'fizzbuzz' do
-  it 'returns a string for a number that is not divisible by 3 and 5' do
-    f = fizzbuzz(26)
-    expect(f).to be_a(String)
+  describe 'fizzbuzz' do
+    it 'returns a string for a number that is not divisible by 3 and 5' do
+      f = @solver.fizzbuzz(13)
+      expect(f).to be_a(String)
+    end
   end
-end
-
 end
