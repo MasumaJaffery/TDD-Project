@@ -20,7 +20,7 @@ class Solver
     elsif (mynum % 5).zero?
       'buzz'
     else
-      mynum.to_s
+      mynum
     end
   end
 end

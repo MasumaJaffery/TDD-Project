@@ -15,6 +15,11 @@ describe Solver do
     it 'Factorial Number Negative' do
       expect { @solver.factorial(-2) }.to raise_error(ArgumentError, 'Factorial is not defined for negative integers.')
     end
+
+    it 'Factorial of 0' do
+      result = @solver.factorial(0)
+      expect(result).to eq(1)
+    end
   end
 
   context 'Reverse Method' do
@@ -48,7 +53,7 @@ describe Solver do
   describe 'fizzbuzz' do
     it 'returns a string for a number that is not divisible by 3 and 5' do
       f = @solver.fizzbuzz(13)
-      expect(f).to be_a(String)
+      expect(f).to eq(13)
     end
   end
 end
