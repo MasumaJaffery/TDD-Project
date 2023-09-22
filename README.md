@@ -27,7 +27,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [OOP school library] <a name="about-project"></a>
+# 📖 [Test Driven Development] <a name="about-project"></a>
 **[TDD]**In this project We will implement a class with some methods, but We will do it by doing test-driven development (TDD).The idea is to write tests first and then the code. This will be verified in Our commits history.
 
 ## 🛠 Built With <a name="built-with"></a>
